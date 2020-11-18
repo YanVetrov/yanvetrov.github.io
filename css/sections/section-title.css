@@ -1,0 +1,75 @@
+  .verivax-title {
+    
+    margin-top: var(--section-margin);
+    min-height: 168px;
+  }
+
+
+  .white {
+    height: auto;
+    background-color: #ffffff;
+  }
+  .verivax-title-block {
+    padding: 50px 130px !important;
+    background-image: -webkit-linear-gradient(right, #f1f1f1, #f1f1f1 85vw, transparent 70%, transparent 100%);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+  }
+
+  .verivax-title-block .text {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #6C6C6C;
+  }
+
+  .verivax-title-block .author {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;text-transform: uppercase;
+    color: #000000;
+    position: absolute;
+    left: -110px;
+  }
+
+  .verivax-title-block .author::after {
+    content: '';
+    display: block;
+    height: 6px;
+    width: 100%;
+    color: var(--main-color);
+    background-color: var(--main-color);
+    margin-top: 10px;
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+
+    .verivax-title-block {
+      padding: 50px 70px !important;
+      justify-content: center;
+    }
+
+    .verivax-title-block .author {
+      font-size: 24px;
+      line-height: 30px;
+      top: -15px;
+      left: 70px;
+    }
+
+    .verivax-title-block .text {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    
+    .white {
+      display: none !important;
+    }
+  }

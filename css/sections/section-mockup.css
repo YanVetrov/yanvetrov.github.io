@@ -1,0 +1,14 @@
+.mockups {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.mockup-item-wrapper {
+    flex-basis: 45%;
+    max-width: 45%;
+}
+
+.mockup-item-wrapper img {
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+.quote {
+		margin-top: 100px;
+		margin-bottom: 100px;
+    background-color: var(--main-color);
+}
+
+.quote .inner-wrapper {
+    /* max-width: var(--max-container-width); */
+		padding: 80px 130px;
+		
+    color: white;
+    text-align: center;
+}
+
+.quote .inner-wrapper .title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: var(--large-padding);
+}
+
+.quote .inner-wrapper .author {
+    font-size: 24px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+	.quote .inner-wrapper {
+		padding: 20px;
+	}
+
+	.quote .inner-wrapper .title {
+    font-size: 18px;
+		line-height: 24px;	
+	}
+
+	.quote .inner-wrapper .author {
+    font-size: 14px;
+		line-height: 18px;
+	}
+}
