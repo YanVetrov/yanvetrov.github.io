@@ -417,6 +417,13 @@
 	body{
 		zoom: 1 !important;
 	}
+	.verix{
+		flex-direction: column;
+	}
+	.row{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
 	.enquires img {
 		width: 60px;
 		height: 60px;
@@ -464,7 +471,7 @@
   .header-section-desktop{
 	  justify-content: center;
 	  align-items: center;
-	  transform: translate(-88vw,0px);
+	  transform: translate(-85vw,0px);
 	  transition: all .3s ease-out;
   }
   #arrow{
