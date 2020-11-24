@@ -23,7 +23,9 @@
   --light-gray: #737373;
   --before-color: #355A84;
 }
-
+.row{
+  justify-content: center !important;
+}
 /*FONTS*/
 @font-face {
   font-family: AvenirBold;

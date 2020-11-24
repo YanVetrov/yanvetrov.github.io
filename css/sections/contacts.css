@@ -3,6 +3,7 @@
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 100px;
+    padding-left: 14vw !important;
 }
 
 .contacts-wrapper {
@@ -97,6 +98,7 @@
 
 .download-apps {
     display: flex;
+    justify-content: center;
     margin-top: 54px;
 }
 
@@ -126,7 +128,10 @@
 		.contacts-info {
 			max-width: 100%;
 			padding-right: 140px;
-		}
+        }
+        .contacts{
+            padding-left: 0 !important;
+        }
 
 		.contacts-info .item-wrapper a {
 			font-size: 18px;

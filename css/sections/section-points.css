@@ -353,8 +353,8 @@
 	.h-d-i-w-c-block {
 		/* max-width: 266px; */
 		width: 90%;
-		margin-bottom: 16px !important;
-		padding:16px;
+		margin-bottom: 14px !important;
+		padding:14px;
 		max-width: none;
 		align-self: center !important;
 	}
@@ -395,7 +395,7 @@
 	
 	.h-d-i-w-c-block .text p {
 		font-size: 14px;
-		line-height: 18px;
+		line-height: 17px;
 	}
 	#op_wrapper{
 		opacity: 0;
@@ -599,7 +599,7 @@
 
 
 	.w-u-u-title {
-		padding-right: 20px;
+		padding-right: 0px;
 	}
 	.w-u-u-title p {
 		text-align: right;
